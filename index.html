@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr-Fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/handshake.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>chifoumi</title>
+</head>
+
+<body>
+  <div class="app">
+    <img src="/pierre-papier-ciseaux.png" alt="chifoumi" width="200" height="200">
+    <h1>Chifoumi</h1>
+    <div class="game">
+      <div class="playeur">
+        <span class="score-player">0</span>
+        <h3>Player</h3>
+        <button class="play">Jouer</button>
+        <div class="choix choix-gameur">
+          <button data-id="0" class="pierre" title="pierre">✊</button>
+          <button data-id="1" class="feuille" title="feuille">🖐️</button>
+          <button data-id="2" class="ciseaux" title="ciseaux">✌️</button>
+        </div>
+
+      </div>
+      <div class="computer">
+        <span class="score-computer">0</span>
+        <h3>Computer</h3>
+        <button class="play" disabled>Jouer</button>
+        <div class="choix choix-computer">
+          <div class="animation">
+            <!-- 🖖🖐️✊🤝 -->
+            <span class="greeting pierre">✊</span>
+            <span class="greeting feuille">🖐️</span>
+            <span class="greeting ciseaux">✌️</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

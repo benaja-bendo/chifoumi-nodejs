@@ -1,13 +1,25 @@
 {
-  "name": "devinenbre",
+  "name": "chifoumi",
   "version": "1.0.0",
-  "description": "",
+  "description": "chifoumi",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "ts": "tsc src/cli/index.ts --outDir cli/ --target es2017 --module es2022",
+    "cli": "node cli/cli/index.js",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "engines" : { 
+    "node" : ">=18.12.1"
+  }
 }

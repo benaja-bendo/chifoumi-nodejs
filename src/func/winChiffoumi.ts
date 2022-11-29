@@ -1,10 +1,16 @@
+import { Score } from "../type.js";
+
 /**
- * @param {string} player1
- * @param {string} player2
- * @param {object} scores
- * @return {object}
+ * @param {number} player1
+ * @param {number} player2
+ * @param {Score} scores
+ * @return {Score}
  */
-export function winChiffoumi(player1, player2, scores) {
+export function winChiffoumi(
+  player1: number,
+  player2: number,
+  scores: Score
+): Score {
   if (player1 === player2) {
     console.log("égalité");
     return scores;
