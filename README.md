@@ -1,23 +1,31 @@
 # chifoumi-nodejs
 
-petit jeu en console avec nodejs pour joueur au chifoumi contre l'ordinateur
+petit jeu disponible en console et sur page-web pour joueur au chifoumi contre un ordinateur.
 
 ## Pour jouer en ligne de commande
 
-1. Cloner le projet (git clone)
+1. Cloner le projet
 
 ```bash
 git clone https://github.com/benaja-bendo/chifoumi-nodejs.git
 ```
 
-2. Démarer le projet (node index.js) ou (npm run dev)
+2. Lancer le projet
 
 ```bash
-node index.js
+npm run cli
 ```
 
-ou
+## Pour jouer sur la page web
+
+1. Cloner le projet
 
 ```bash
-    npm run dev
+git clone https://github.com/benaja-bendo/chifoumi-nodejs.git
+```
+
+2. Lancer le projet
+
+```bash
+npm run web
 ```

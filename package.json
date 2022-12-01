@@ -7,7 +7,7 @@
   "scripts": {
     "ts": "tsc src/cli/index.ts --outDir cli/ --target es2017 --module es2022",
     "cli": "node cli/cli/index.js",
-    "dev": "vite",
+    "web": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
@@ -19,7 +19,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "engines" : { 
-    "node" : ">=18.12.1"
+  "engines": {
+    "node": ">=18.12.1"
   }
 }
